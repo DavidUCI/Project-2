@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+}
+
+#header{
+    padding-top: 2%;
+    color: white;
+}
+
+#change-bg-color{
+    color: brown;
+    margin-top: 3%;
+}
+
+#earth1{
+    margin-top: 70px;
+}
+
+#earth2{
+    margin-top: 70px;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
