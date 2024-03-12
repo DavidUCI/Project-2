@@ -13,6 +13,7 @@
 #header{
     padding-top: 2%;
     color: white;
+    font-family: "Noto Serif", serif;
 }
 
 #change-bg-color{
@@ -33,4 +34,94 @@ button{
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+}
+
+#nd{
+    display: block;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: -550px;
+    width: 300px;
+}
+
+#hw{
+    display: block;
+    margin-right: auto;
+    margin-left: 20px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+#ag{
+    display: block;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: -490px;
+    width: 300px;
+}
+
+#hh{
+    display: block;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.loaded{
+    opacity: 1;
+}
+
+#nd-txt{
+    margin-left: auto;
+    margin-right: 700px;
+    margin-top: -400px;
+    font-family: "Noto Serif", serif;
+    color: white;
+    font-size: xx-small;
+}
+
+#hw-txt{
+    margin-left: auto;
+    margin-right: 640px;
+    margin-top: 120px;
+    font-family: "Noto Serif", serif;
+    color: white;
+    font-size: xx-small;
+}
+
+#ag-txt{
+    margin-left: 650px;
+    margin-right: auto;
+    margin-top: -450px;
+    font-family: "Noto Serif", serif;
+    color: white;
+    font-size: xx-small;
+}
+
+#hh-txt{
+    margin-left: 650px;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: "Noto Serif", serif;
+    color: white;
+    font-size: xx-small;
+}
+
+
+
+.fade-in-text{
+    font-family: "Noto Serif", serif;
+    color: white;
+    font-size: xx-small;
+
+}
+
+.hidden{
+    display: none;
 }

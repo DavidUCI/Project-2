@@ -10709,8 +10709,17 @@ if ( typeof noGlobal === "undefined" ) {
 	window.jQuery = window.$ = jQuery;
 }
 
+$(window).on("load", function() {
+	$('.fade-in').addClass('loaded');
+});
 
 
+$(document).ready(function() {
+	$('.fade-in').click(function() {
+		$
+	(this).siblings('.text').toggleClass('hidden');
+	});
+});
 
 return jQuery;
 } );
