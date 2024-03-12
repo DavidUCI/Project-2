@@ -10713,11 +10713,27 @@ $(window).on("load", function() {
 	$('.fade-in').addClass('loaded');
 });
 
+$(document).ready(function(){
+	$('#nd').click(function(){
+		$('#nd-txt').toggleClass('fin-nd');
+	});
+});
 
-$(document).ready(function() {
-	$('.fade-in').click(function() {
-		$
-	(this).siblings('.text').toggleClass('hidden');
+$(document).ready(function(){
+	$('#hw').click(function(){
+		$('#hw-txt').toggleClass('fin-hw');
+	});
+});
+
+$(document).ready(function(){
+	$('#ag').click(function(){
+		$('#ag-txt').toggleClass('fin-ag');
+	});
+});
+
+$(document).ready(function(){
+	$('#hh').click(function(){
+		$('#hh-txt').toggleClass('fin-hh');
 	});
 });
 
